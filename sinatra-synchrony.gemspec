@@ -13,11 +13,11 @@ Gem::Specification.new do |s|
   s.rubyforge_project = s.name
   s.required_rubygems_version =         '>= 1.3.4'
   s.add_dependency 'sinatra',           '>= 1.0'
-  s.add_dependency 'rack-fiber_pool',   '= 0.9.1'
-  s.add_dependency 'async-rack',        '= 0.5.1'
-  s.add_dependency 'em-http-request',   '= 0.3.0'
-  s.add_dependency 'em-synchrony',      '= 0.2.0'
-  s.add_dependency 'em-resolv-replace', '= 1.1.1'
+  s.add_dependency 'rack-fiber_pool',   '>= 0.9.1'
+  s.add_dependency 'async-rack',        '>= 0.5.1'
+  s.add_dependency 'em-http-request',   '>= 1.0.0.beta4'
+  s.add_dependency 'em-synchrony',      '>= 0.3.0.beta1'
+  s.add_dependency 'em-resolv-replace', '>= 1.1.1'
 
   s.add_development_dependency 'rake'
   s.add_development_dependency 'rack-test', '= 0.5.7'
